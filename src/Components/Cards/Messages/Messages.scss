@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fc-messages-time p{
+    text-align: end;
+    color: #7F8FA4;
+    font-size: 12px !important;
+}
+.fc-message-card{
+    min-height: 318px !important;
+    box-shadow: 0px 3px 6px #89ABCE3F !important;
+    border-radius: 20px !important;
+    opacity: 1 !important;
+}

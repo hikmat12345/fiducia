@@ -1,0 +1,69 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+ 
+.card-activity-calendar{
+    background-color: white;
+    border-radius: 20px !important;
+    border: none;
+    min-height: 245px !important;
+    box-shadow:  0px 0px 6px #7F8FA430;
+    opacity: 1;
+    // padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+.card-activity-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px 15px 8px;
+}
+.card-activity-title h5{
+    padding-left: 12px;
+    font-weight: 650;
+}
+.card-activity-title li{
+    text-decoration: none;
+    display: inline;
+    padding: 0px 0px !important;
+    margin: 0 5px;
+    border-radius: 8px;
+    
+}
+// .card-activity-title li span{
+//     min-width: 100px;
+//     height: 50px;
+//     background-color: #F8F9FF;
+// }
+.fc-mailbox p{
+    text-align: end;
+}
+ 
+.fc-title-card-list{
+    list-style: none;
+    margin: 0;
+    position: relative;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important; 
+}
+.css-h4y409-MuiList-root {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    // padding-top: 0px !important;
+    // padding-bottom: 0px !important;
+}
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root{
+    // padding-top: 5px !important;
+    // padding-bottom: 5px !important;
+}
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root.Mui-selected {
+    background-color: none !important;
+}

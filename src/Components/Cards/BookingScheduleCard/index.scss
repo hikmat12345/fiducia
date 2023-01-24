@@ -1,0 +1,9 @@
+
+
+.slider{
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}

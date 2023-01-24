@@ -1,0 +1,130 @@
+ 
+ 
+ @import "./mediaQueries.scss";
+//  @import './Font/Montserrat/Montserrat-VariableFont_wght.ttf';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@font-face{
+  font-family: 'normal';
+  src: local(normal-font), url(./Font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face{
+  font-family: 'normal-bold';
+  src: local(normal-font), url(./Font/Montserrat/static/Montserrat-Bold.ttf);
+} 
+* {
+  font-family: 'normal';
+  margin: 0;
+  padding: 0;
+}
+p{
+  font-size: 13px;
+  color: #7F8FA4;
+}
+a {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 10px;
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 30px;  
+  font-weight: 600px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 600px;
+}
+ 
+
+.dpr {
+  padding-right: 1%;
+}
+
+.dpl {
+  padding-left: 1%;
+}
+
+.dpb {
+  padding-bottom: 30px;
+}
+
+.dpt {
+  padding-top: 30px;
+}
+
+.dp {
+  padding: 1%;
+}
+.theme-primary{
+ color: #0F0140
+}
+// colors 
+ $default-button-bg: #fff;
+ $primary-button-bg: #00F2E0; 
+ 
+ $default-bg-color:#FFFFFF;
+ $primary-bg-color: #F8F9FF;
+ $secondary-bg-color: #0F0140; 
+   
+
+ $primary-text-color:#0F0140;
+ $default-text-color: #FFFFFF;
+ $secondary-text-color:#7F8FA4;
+
+  
+$default-section-gap: 10px; 
+$default-side-padding: 1%;
+
+@mixin flex($propert1, $property2) {
+  display: flex;
+  justify-content: $propert1;
+  align-items: $property2;
+}
+
+$container-bg-primary: rgba(244, 244, 244, 1);
+ 
+ .primary-btn-bg-button{
+    background-color:  $primary-button-bg; 
+    border: initial;
+    outline: initial;
+    padding: 11px;
+    width: 100%;
+    border-radius: 4px;
+ }
+.pb{
+  padding-bottom: 10px;
+}
+.pl{
+  padding-left: 10px;
+}
+.pt{
+  padding-top: 10px;
+}
+.pr{
+  padding-right: 10px;
+}
+.pointer {
+  cursor: pointer;
+}
+ 
+html {
+  scroll-behavior: smooth;
+}

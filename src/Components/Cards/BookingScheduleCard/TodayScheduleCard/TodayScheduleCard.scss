@@ -1,0 +1,27 @@
+
+
+.css-1q1u3t4-MuiTableRow-root {
+    color: #BBC7DA !important;
+    display: table-row;
+    vertical-align: middle;
+    outline: 0;
+    background-color: #F8F9FF ;
+    border: none;
+}
+.fc-todayschedule-tabel-head{
+    border: none !important;
+}
+:where(.css-dev-only-do-not-override-k83k30).ant-layout, :where(.css-dev-only-do-not-override-k83k30).ant-layout * {
+    box-sizing: border-box;
+    border: none !important;
+}
+.fc-edit-btn{
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+}
+.fc-table-inside-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}

@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.fc-content{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.fc-home-homage-title{
+    font-weight: 700;
+    display: inline;
+}
+.fc-home-homage-title h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fc-sider{
+    background-color: #0F0140 !important;
+    justify-content: center;
+    flex: 0 0 200px;
+    max-width: 200px !important;
+    min-width: 270px !important;
+    height: auto !important;
+    width: 200px !important;
+}
+.fc-sider-menu-items{
+    background-color: #0F0140 !important;
+    margin-top: 30px;
+}
+.fc-sider img{
+    width: 150px;
+    height: 55px;
+    top: 52px;
+    left: 88px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fc-header{
+    background-color: #f5f5f5 !important;
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+.fc-header .FCText{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.fc-header .fc-head-text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.fc-header .fc-head-belloutlined{
+    font-size: 25px;
+}
+.fc-sider :where(.css-dev-only-do-not-override-k83k30).ant-layout .ant-layout-sider {
+    background: #001529;  
+}
+
+.fc-home-content{
+    padding-left: 60px;
+    padding-right: 60px; 
+}
+.fc-home-title-text {
+    display: block;
+}
+.fc-home-title-text h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+:where(.css-dev-only-do-not-override-k83k30).ant-menu-dark .ant-menu-item-selected {
+    color: #00F2E0;
+}
+:where(.css-dev-only-do-not-override-k83k30).ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #160E61;
+}

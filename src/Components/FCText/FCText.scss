@@ -1,0 +1,66 @@
+@import "../../mediaQueries.scss";
+
+//desktop
+.fc--text {
+  font-size: 13px;
+  font-weight: 500;
+  color: black;
+}
+
+.heading {
+  font-size: 25px;
+}
+
+.sub-heading {
+  font-size: 20px;
+}
+
+.paragraph {
+  font-size: 12px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.primary-text-color {
+  color: rgba(255, 255, 255, 1);
+}
+
+.secondar-text-color {
+  color: rgba(220, 0, 0, 1);
+}
+
+.tertiary-text-color {
+  color: #626262;
+}
+
+//small-desktop
+@include smallDesktop {
+  .heading {
+    font-size: 22px;
+  }
+
+  .sub-heading {
+    font-size: 18px;
+  }
+}
+
+//tablet
+@include tablet {
+  .fc--text {
+    font-size: 11px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .sub-heading {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,21 @@
+
+
+.main-curousel{
+    position: relative;
+    display: flex;
+    align-items: center;
+    // overflow-x: scroll;
+    // display:flex;
+    // white-space: nowrap;
+    // scrollbar-width: none;
+    // scroll-behavior: smooth;
+    
+    }
+.main-curousel::-webkit-scrollbar{
+    display: none;
+    }
+
+.slider-icon-right{
+    float: right;
+    cursor: pointer;
+}
